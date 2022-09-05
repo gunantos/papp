@@ -1,0 +1,20 @@
+{
+    "name": "appkita/papp",
+    "description": "Small framework PHP for website",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Appkita\\Papp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gunanto Simamora",
+            "email": "gunanto.simamora@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^3.0"
+    }
+}
